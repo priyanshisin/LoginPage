@@ -1,0 +1,96 @@
+git <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #915bee;
+            text-align: center;
+        }
+        .container{ 
+            background-color: whitesmoke;
+            height: 550px;
+            width: 350px;
+            padding: 10px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 470px;
+            /* margin-right: 200px; */
+            border: 1px transparent ;
+            border-radius: 10px;
+            font-family: 'Poppins', sans-serif;
+        }
+        h1 {
+            font-size: 30px;
+            font-weight: 900;
+            padding: 20px;
+            margin: 40px;
+        }
+        #txt {
+            width: 300px;
+            border: none;
+            border-bottom: 2px solid grey;
+            background-color: whitesmoke;
+            font-size: 15px;
+            padding: 7px;
+            margin: 7px;
+            border-radius: 4px;
+        }
+        #email, #password {
+            width: 300px;
+            border: none;
+            border-bottom: 2px solid grey;
+            background-color: whitesmoke;
+            font-size: 15px;
+            padding: 7px;
+            margin: 7px;
+            border-radius: 4px;
+        }
+        
+        
+        #submit {
+            width: 300px;
+            height: 40px;
+            background-color:  #915bee;
+            margin: 10px;
+            font-size: 15px;
+            padding: 7px;
+            color:aliceblue;
+            border-color: transparent;
+            border-radius: 4px;
+        }
+
+        #submit:hover {
+            color: purple;
+            background-color: #b389da;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>User Login</h1>
+        <form action="#" method="get">
+            <!-- <label for="username">Username</label> -->
+            <input type="text" name="name" id="txt" placeholder="Name" required><br>
+
+            <!-- <label for="email">Email</label> -->
+            <input type="email" name="email" id="email" placeholder="Email: example@gmail.com " required><br>
+
+            <!-- <label for="password">password</label> -->
+            <input type="password" name="password" id="password" placeholder="********"required>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
